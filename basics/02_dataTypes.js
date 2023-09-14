@@ -20,3 +20,4 @@ console.log(typeof "Payal");
 console.log(typeof age);
 console.log(typeof null);
 console.log(typeof undefined);
+console.log(typeof true);
