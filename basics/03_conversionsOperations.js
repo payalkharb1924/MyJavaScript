@@ -15,3 +15,7 @@ let score3 = undefined
 let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);
+// "" => false
+// "Payal" => true
+
+// *****
