@@ -20,15 +20,49 @@
 // Array,Objects,Functions
 
 // Arrays :
-const heros = ["Dr.Strange","Shang-Chi","Ironman"];
+// const heros = ["Dr.Strange","Shang-Chi","Ironman"];
 
 // Objects :
-let MyObj = {
-    name: "Payal",
-    age:18
-}
+// let MyObj = {
+//     name: "Payal",
+//     age:18
+// }
 
 // Function : (datatype of function is Function)
-const MyFunction = function(){
-    console.log("Hello World");
+// const MyFunction = function(){
+//     console.log("Hello World");
+// }
+
+
+
+// *******************************************************
+
+//  MEMORY
+// Type of Memory -> Stack(Primitive),Heap(Non-Primitive)
+
+// Stack : This don't change the exact value it generate copy of value and apply changes on it
+
+let Name = "Payal"
+let Name2 = Name
+Name2 = "Kharb"
+
+console.log(Name);
+console.log(Name2);
+
+// Heap -> Original values changes in heap
+
+let userOne = {
+    email: "user@gmail.com",
+    upi:"user@123"
 }
+
+let userTwo = userOne
+// Here userTwo will directly access data of userOne instead of copy
+
+userTwo.email = "123@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
