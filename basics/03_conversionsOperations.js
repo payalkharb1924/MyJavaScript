@@ -14,8 +14,17 @@ let score3 = undefined
 
 let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 // "" => false
 // "Payal" => true
 
-// *****
+// *************************Operations*****************************
+let value = 3
+let negvalue = -value
+// console.log(negvalue)
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
